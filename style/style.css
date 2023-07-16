@@ -878,5 +878,12 @@ input:checked + .slide-container .carousel-controls label {
         height: 400px;
     }
 }
+@media (max-width: 575px) {
+    .loc__content-map{
+        max-width: 450px;
+        width: 100%;
+        height: 400px;
+    }
+}
 
 
