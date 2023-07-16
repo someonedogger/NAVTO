@@ -871,5 +871,12 @@ input:checked + .slide-container .carousel-controls label {
         justify-content: space-between;
     }
 }
+@media (max-width: 435px) {
+    .loc__content-map{
+        max-width: 350px;
+        width: 100%;
+        height: 400px;
+    }
+}
 
 
