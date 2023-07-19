@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N.AVTO</title>
     <link rel="icon" href="images/page_logo.svg" type="image/icon type">
-    <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
@@ -14,19 +13,63 @@
 
     <header class="header">
       <div class="header__navbar">
-        <nav class="navbar">
-          
+        <div class="container navbar__container">
+
           <div class="navbar__logo">
-            <a href="#1">
+            <a href="index.html">
               <img src="images/H-logo.png" alt="">
             </a>
           </div>
-          
-        </nav>
+          <div class="navbar__links">
+            <p>
+              <a href="" class="navbar__link navbar__link-mobile">О нас</a>
+            </p>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle navbar__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Запчасти
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item navbar__link" href="#">Ходовая часть</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Шины/диски</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Все для салона</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Кузова</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Масло и жидкости</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Тюнинг</a></li>
+              </ul>
+            </div>
+            <p>
+              <a href="" class="navbar__link">Мастера</a>
+            </p>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle navbar__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Язык
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item navbar__link" href="#">Русский</a></li>
+                <li><a class="dropdown-item navbar__link" href="#">Узбекский</a></li>
+              </ul>
+      
+            </div>
+          </div>
+          <div class="navbar__right">
+            <div class="navbar__search">
+              <input class="navbar__searchBar" type="search" id="form1" placeholder="Search"/>
+            </div>
+            <div class="navbar__login">
+              <button class="navbar__login-btn">Войти</button>
+              <a href="#!">
+                <img src="images/navbar__user-icon.png" alt="" class="navbar__user-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__navbar-mobile">
+        <h1>hwllo yopta</h1>
       </div>
 
 
-        
+
       
 
 
@@ -44,6 +87,7 @@
             </div>
           </div>
         </div>
+
     </header>
 
     <main class="main">
@@ -344,11 +388,9 @@
           </a>
         </div>
       </div>
-
     </footer>
 
-    <script src="js/all.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
