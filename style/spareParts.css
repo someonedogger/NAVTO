@@ -247,7 +247,12 @@ a{
 .accordion__mobile{
     display: none;
 }
-
+.accordion__title{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--wh);
+}
 
 
 .dropdown-menu{
