@@ -108,8 +108,8 @@ p{
 .dropdown-menu > li:nth-of-type(even){
     background: var(--text);
 }
-.dropdown:hover .dropdown-menu{
-    display: block;
+.dropdown__main:hover .dropdown-menu{
+    display: block !important;
 }
 .form-outline{
     display: flex;
@@ -132,6 +132,7 @@ p{
     font-family: var(--MR);
     padding: 10px 25px;
     border-radius: 8px;
+    color: #2E322E;
 }
 .navbar__user-icon{
     width: 24px;

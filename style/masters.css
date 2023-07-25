@@ -1,0 +1,42 @@
+:root{
+    --MEL: MEL;
+    --ML: MEL;
+    --MR: MR;
+    --MM: MM;
+    --MSB: MSB;
+    --MB: MB;
+    --IR: IR;
+    --IB: IB;
+    --BB: BB;
+    --yellow: #FFE715;
+    --bg: #192732;
+    --text: #3b3e40;
+    --wh: #ffffff;
+}
+
+
+/* ////////////// MAIN////////////// */
+.dropdown-toggle{
+    width: 241px;
+    background: none;
+    border: 1px solid var(--wh);
+    border-radius: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown__category-title{
+    font-size: 14px;
+    line-height: 24px; 
+    font-family: var(--MR);
+    color: var(--wh);
+}
+.dropdown-toggle{
+    padding: 12px;
+}
+.dropdown-toggle::after{
+    color: var(--yellow);
+}
+
+
+
