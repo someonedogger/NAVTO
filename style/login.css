@@ -13,9 +13,6 @@
     --text: #3b3e40;
 }
 /* ///////////////////// */
-.main{
-    background: #0C141B;
-}
 .logIn__container{
     display: flex;
     justify-content: center;
@@ -118,6 +115,9 @@
     text-transform: uppercase;
     font-family: var(--MR);
     color: var(--yellow);
+}
+.login__bg{
+    background: url(../images/reg__bg.png) no-repeat  center /cover fixed;
 }
 @media (max-width: 650px) {
     .login__box{

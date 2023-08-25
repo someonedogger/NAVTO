@@ -45,6 +45,9 @@
     margin: 0 auto;
     margin-bottom: 20px;
 }
+.registration__bg{
+    background: url(../images/reg__bg.png) no-repeat center /cover fixed;
+}
 @media (max-width: 650px) {
     .login__box{
         margin-top: 40px;
